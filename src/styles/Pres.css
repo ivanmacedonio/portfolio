@@ -1,0 +1,86 @@
+.pres {
+    margin-top: 4rem;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.pres h1 {
+    color: #2d2e32;
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.prestitle {
+    max-width: 40%;
+    margin-right: 2rem;
+}
+
+.pres p {
+    font-size: 1.4rem;
+    color: #a6a6a6;
+}
+
+.pres img{
+    width: 2.5rem;
+    margin-top: 2rem;
+    padding-right: .4rem;
+    transition: transform 0.3s ease;
+}
+
+.pres img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+/* Media query para tamaños de pantalla más pequeños */
+@media (max-width: 768px) {
+    .pres {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .prestitle,
+    .presdescrip {
+        max-width: 100%;
+        /* Ocupa el ancho completo */
+        margin: 1rem 0;
+        margin-left: 1rem;
+        /* Espacio vertical entre los elementos */
+    }
+    .image{
+        display: none;
+    }
+}
+
+.image {
+    animation: morph 8s ease-in-out infinite;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 25rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25rem;
+    background-image: url('../assets/me.jpg');
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}

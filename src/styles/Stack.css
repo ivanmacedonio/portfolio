@@ -1,0 +1,10 @@
+.stackdiv img {
+    transition: transform 0.3s ease;
+    margin-right: .2rem;
+    width: 2.5rem;
+}
+
+.stackdiv img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
