@@ -1,0 +1,23 @@
+.titlecontact h3 {
+    font-size: 1.2rem;
+    color: rgb(79, 79, 253);
+}
+
+.contact {
+    margin-left: 15rem;
+}
+
+.gmail {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.gmail img {
+    width: 3rem;
+}
+
+.gmailp {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}

@@ -1,4 +1,4 @@
-.aboutapp{
+.aboutapp {
     margin-top: 20rem;
 }
 
@@ -6,32 +6,54 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
 
-.div2{
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
     max-width: 55%;
 }
 
-@media (max-width: 768px){
-    .aboutapp img{
-        display: none;
+.div2 p{
+    font-family: 'Poppins', sans-seri;
+}
+
+#abouth1{
+    color: rgb(79, 79, 253);
+    font-size: 1.2rem;
+    font-weight: 700;
+   
+}
+
+
+.aboutapp img {
+    max-width: 100%;
+    width: 60%;
+    margin-left: 18rem;
+}
+
+@media (max-width: 768px) {
+    .aboutapp {
+        grid-template-columns: 1fr;
     }
 
-    .div2{
-        display: block;
-        text-align: center;
-        font-size: 1.4rem;
-
+    .div2 {
+        max-width: 100%;
     }
 }
 
-.aboutapp img{
-    max-width: 100%;
-    width: 60%;
-    margin-left: 10rem;
+/* Estilos para pantallas más grandes */
+@media (min-width: 769px) {
+    .aboutapp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div2 {
+        max-width: 55%;
+    }
 }
