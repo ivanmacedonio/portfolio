@@ -1,6 +1,5 @@
 .pres {
     margin-top: 4rem;
-    margin-right: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,20 +39,21 @@
 /* Media query para tamaños de pantalla más pequeños */
 @media (max-width: 768px) {
     .pres {
-        flex-direction: column;
-        text-align: center;
+        margin-right:0;
+        width: 50rem;
     }
 
-    .prestitle,
-    .presdescrip {
-        max-width: 100%;
-        /* Ocupa el ancho completo */
-        margin: 1rem 0;
-        margin-left: 1rem;
-        /* Espacio vertical entre los elementos */
-    }
+    
     .image{
         display: none;
+    }
+}
+
+
+@media (max-width: 1366px){
+    .image{
+        margin-left: 5rem;
+        margin-bottom: 17rem;
     }
 }
 

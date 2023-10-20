@@ -3,7 +3,7 @@ import "../styles/About.css";
 import people from "../assets/pe.svg";
 export const About = () => {
   return (
-    <div className="aboutapp">
+    <div className="aboutapp" id="section1">
       <div class="div1">
         <img src={people} alt="" />
       </div>

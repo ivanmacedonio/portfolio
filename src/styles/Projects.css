@@ -7,4 +7,22 @@
     color: rgb(79, 79, 253);
 }
 
+@media (max-width: 1366px){
+    .text {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 768px){
+    .cardp {
+        margin-right: 40rem;
+    }
+}
+
+@media (min-width: 1300px){
+    .text {
+        margin-left: 24rem;
+    }
+}
+
 

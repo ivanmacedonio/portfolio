@@ -12,12 +12,30 @@
     margin-top: 2rem;
 }
 
-.gmail img {
-    width: 3rem;
-}
-
 .gmailp {
     display: inline-block;
     font-size: 1.4rem;
     margin-left: 2rem;
+}
+
+/* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+    .titlecontact h3 {
+        font-size: 1rem; /* Ajustar el tamaño de fuente para dispositivos móviles */
+    }
+
+    .contact {
+        margin-left: 0; /* Eliminar el margen izquierdo en dispositivos móviles */
+    }
+
+    .gmail {
+        display: block; /* Mostrar en bloque en dispositivos móviles */
+        margin-top: 1rem; /* Ajustar el margen superior */
+    }
+
+    .gmailp {
+        display: block; /* Mostrar en bloque en dispositivos móviles */
+        font-size: 1.2rem; /* Ajustar el tamaño de fuente en dispositivos móviles */
+        margin-left: 0; /* Eliminar el margen izquierdo en dispositivos móviles */
+    }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/card.css";
 import git from '../assets/github.svg'
-export const Card = ({ title, parraph, footer, image }) => {
+export const Card = ({ title, parraph, footer, image, link }) => {
   return (
     <>
       <div class="card">
@@ -13,7 +13,7 @@ export const Card = ({ title, parraph, footer, image }) => {
           {" "}
           {parraph}
           <div className="gith">
-            <img src={git} alt="" />
+            <img src={git} alt="" onClick={()=> {window.location.href = link}} />
           </div>
           <div class="author">
             {" "}

@@ -16,9 +16,9 @@ export const NavBar = () => {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <span>About</span>
-          <span>Projects</span>
-          <span>Contact</span>
+         <a href="#section1"> <span>About</span></a>
+         <a href="#section2"> <span>Projects</span></a>
+         <a href="#section3"> <span>Contact</span></a>
         </Stack>
       </div>
     </div>
