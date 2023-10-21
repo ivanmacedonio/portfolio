@@ -3,6 +3,7 @@ import "../styles/Pres.css";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import { Stack } from "./Stack";
+import { Download } from "./Download";
 
 export const Pres = () => {
   return (
@@ -14,8 +15,23 @@ export const Pres = () => {
             Hi, I'm Ivan Macedonio. A passionate Full-Stack developer based in
             Buenos Aires, Argentina
           </p>
-          <img src={github} alt="" onClick={()=>{window.location.href = "https://github.com/ivanmacedonio"}}/>
-          <img src={linkedin} alt="" onClick={()=>{window.location.href  = "https://www.linkedin.com/in/iv%C3%A1n-macedonio-544056245/"}} />
+          <img
+            src={github}
+            alt=""
+            onClick={() => {
+              window.open("https://github.com/ivanmacedonio", "_blank");
+            }}
+          />
+          <img
+            src={linkedin}
+            alt=""
+            onClick={() => {
+              window.open(
+                "https://www.linkedin.com/in/iv%C3%A1n-macedonio-544056245/",
+                "_blank"
+              );
+            }}
+          />
           <div className="Tech">
             <Stack></Stack>
           </div>

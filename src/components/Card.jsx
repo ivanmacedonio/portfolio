@@ -13,7 +13,7 @@ export const Card = ({ title, parraph, footer, image, link }) => {
           {" "}
           {parraph}
           <div className="gith">
-            <img src={git} alt="" onClick={()=> {window.location.href = link}} />
+            <img src={git} alt="" onClick={()=> { window.open(link, '_blank')}} />
           </div>
           <div class="author">
             {" "}

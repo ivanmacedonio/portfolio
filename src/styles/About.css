@@ -41,9 +41,20 @@
     .aboutapp {
         grid-template-columns: 1fr;
     }
+    #abouth1{
+        font-size: 2.5rem;
+    }
 
     .div2 {
-        width: 60rem;
+        width: 100rem;
+    }
+
+    .div2 h2{
+        font-size: 4rem;
+    }
+
+    .div2 p{
+        font-size: 3rem;
     }
 }
 

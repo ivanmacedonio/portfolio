@@ -34,6 +34,21 @@
   padding: 0.625rem 0.4375rem 0;
 }
 
+@media (max-width: 768px){
+  .category{
+    font-size: 2rem;
+  }
+  .heading{
+    font-size: 1.5rem;
+  }
+  .card img{
+    object-fit: cover;
+  }
+  .text{
+    width: 70rem;
+  }
+}
+
 .category:hover {
   cursor: pointer;
 }

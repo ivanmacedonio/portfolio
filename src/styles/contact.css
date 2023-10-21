@@ -25,9 +25,21 @@
     }
 
     .contact {
-        margin-left: 0; /* Eliminar el margen izquierdo en dispositivos móviles */
+        position: absolute;
+        margin-top: 8rem;
+        margin-left: 12rem;
+        width: 100rem; ;/* Eliminar el margen izquierdo en dispositivos móviles */
     }
 
+    .contact h3{
+        font-size: 3rem;
+    }
+    .contact h2{
+        font-size: 4rem;
+    }
+    .contact p{
+        font-size: 4rem;
+    }
     .gmail {
         display: block; /* Mostrar en bloque en dispositivos móviles */
         margin-top: 1rem; /* Ajustar el margen superior */

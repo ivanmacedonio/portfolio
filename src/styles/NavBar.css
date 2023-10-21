@@ -41,6 +41,10 @@ a{
         flex-direction: column;
         text-align: center;
         margin-left: 22rem;
+        font-size: 4rem;
+    }
+    .nav span{
+        font-size: 3rem;
     }
 
     .nav a {

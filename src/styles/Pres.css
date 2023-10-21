@@ -42,6 +42,20 @@
         margin-right:0;
         width: 50rem;
     }
+    .pres p {
+        font-size: 3rem;
+        color: #a6a6a6;
+        width: 80rem;
+    }
+    .pres h1 {
+      
+        font-size: 9rem;
+      
+    }
+
+    .pres img{
+        width: 6rem;
+    }
 
     
     .image{
