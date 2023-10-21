@@ -27,7 +27,7 @@
     .contact {
         position: absolute;
         margin-top: 8rem;
-        margin-left: 12rem;
+        margin-left: 8rem;
         width: 100rem; ;/* Eliminar el margen izquierdo en dispositivos móviles */
     }
 

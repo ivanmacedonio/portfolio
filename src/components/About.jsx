@@ -13,18 +13,14 @@ export const About = () => {
           A dedicated FullStack Developer based in Buenos Aires, Argentina 📍
         </h2>
         <p>
-          As a Full-Stack Developer, I have an impressive arsenal of front-end
-          skills with tools like Javascript, React, HTML, CSS, and Tailwind. In
-          addition to extensive knowledge in the Back-end with Python, Django,
-          RestFramework, SQL, NoSQL, Websockets, Aws, Docker, among other
-          technologies. I excel at designing and maintaining responsive websites
-          that offer a seamless user experience. My experience lies in creating
-          dynamic and attractive interfaces by writing clean and optimized code
-          and using cutting-edge development tools and techniques, where said
-          applications are supported by a robust backend, using the best
-          development and validation practices. I am also a team player and love
-          collaborating with cross-functional teams to produce exceptional web
-          applications.
+          I am 20 years old and I live in the city of Buenos Aires. I am a fan
+          of video games and sports in general. As a Developer, I
+          excel at designing and maintaining responsive websites that offer a
+          seamless user experience. My experience lies in creating dynamic and
+          attractive interfaces by writing clean and optimized code and using
+          cutting-edge development tools and techniques, where said applications
+          are supported by a robust backend, using the best development and
+          validation practices.
         </p>
       </div>
     </div>

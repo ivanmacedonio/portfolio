@@ -11,6 +11,14 @@
 
 .portfolio{
     margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .portfolio{
+        margin-left: 37rem;
+    }
 }
 
 .contact{
