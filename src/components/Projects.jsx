@@ -21,6 +21,7 @@ export const Projects = () => {
             image={blog}
             footer={"ivanDev."}
             link={"https://github.com/ivanmacedonio/blog"}
+            redirect={"https://github.com/ivanmacedonio/blog"}
           ></Card>
           <Card
             title={"Trivia game"}
@@ -30,6 +31,7 @@ export const Projects = () => {
             image={quiz}
             footer={"ivanDev."}
             link={"https://github.com/ivanmacedonio/quiz"}
+            redirect={"https://trivia-ivandev.netlify.app/"}
           ></Card>
           <Card
             title={"Landing page"}
@@ -39,6 +41,7 @@ export const Projects = () => {
             image={land}
             footer={"ivanDev."}
             link={"https://github.com/ivanmacedonio/landing"}
+            redirect={"https://landing-present.netlify.app/"}
           ></Card>
           <Card
             title={"Ecommerce Api"}
@@ -48,6 +51,7 @@ export const Projects = () => {
             footer={"ivanDev"}
             image={api1}
             link={"https://github.com/ivanmacedonio/ecommerce_api2"}
+            redirect={'https://github.com/ivanmacedonio/ecommerce_api2'}
           ></Card>
           <Card
             title={"Websocket Chat Api"}
@@ -57,6 +61,7 @@ export const Projects = () => {
             footer={"ivanDev"}
             image={api2}
             link={"https://github.com/ivanmacedonio/websocketCHATV1"}
+            redirect={'https://github.com/ivanmacedonio/websocketCHATV1'}
           ></Card>
         </div>
       </div>
