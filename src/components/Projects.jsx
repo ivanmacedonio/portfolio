@@ -20,8 +20,8 @@ export const Projects = () => {
             }
             image={blog}
             footer={"ivanDev."}
-            link={"https://github.com/ivanmacedonio/blog"}
-            redirect={"https://github.com/ivanmacedonio/blogPortfolio"}
+            link={"https://github.com/ivanmacedonio/blogPortfolio"}
+            redirect={"https://master--fanciful-druid-e7ad4f.netlify.app/"}
           ></Card>
           <Card
             title={"Trivia game"}
