@@ -21,7 +21,7 @@ export const Projects = () => {
             image={blog}
             footer={"ivanDev."}
             link={"https://github.com/ivanmacedonio/blog"}
-            redirect={"https://github.com/ivanmacedonio/blog"}
+            redirect={"https://github.com/ivanmacedonio/blogPortfolio"}
           ></Card>
           <Card
             title={"Trivia game"}
@@ -51,7 +51,7 @@ export const Projects = () => {
             footer={"ivanDev"}
             image={api1}
             link={"https://github.com/ivanmacedonio/ecommerce_api2"}
-            redirect={'https://github.com/ivanmacedonio/ecommerce_api2'}
+            redirect={"https://github.com/ivanmacedonio/ecommerce_api2"}
           ></Card>
           <Card
             title={"Websocket Chat Api"}
@@ -61,7 +61,7 @@ export const Projects = () => {
             footer={"ivanDev"}
             image={api2}
             link={"https://github.com/ivanmacedonio/websocketCHATV1"}
-            redirect={'https://github.com/ivanmacedonio/websocketCHATV1'}
+            redirect={"https://github.com/ivanmacedonio/websocketCHATV1"}
           ></Card>
         </div>
       </div>
